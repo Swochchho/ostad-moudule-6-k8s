@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+  namespace: ostad-student-system
+data:
+  MONGO_URI: "mongodb://root:example@mongo:27017/Ostad-DB"
